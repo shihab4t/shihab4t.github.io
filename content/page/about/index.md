@@ -4,6 +4,7 @@ description: Competitive Programmer | NHSPC 2022 Finalist | Software Engineering
 aliases:
   - about-us
   - contact
+comments: false
 menu:
     main: 
         weight: -90
