@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Categories on sh048b&#39;s Blog</title>
+        <link>/categories/</link>
+        <description>Recent content in Categories on sh048b&#39;s Blog</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <lastBuildDate>Sun, 08 Nov 2020 00:00:00 +0000</lastBuildDate><atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Blog</title>
+        <link>/categories/blog/</link>
+        <pubDate>Sun, 08 Nov 2020 00:00:00 +0000</pubDate>
+        
+        <guid>/categories/blog/</guid>
+        <description>&lt;img src="/categories/blog/blog-image.jpeg" alt="Featured image of post Blog" /&gt;</description>
+        </item>
+        
+    </channel>
+</rss>
