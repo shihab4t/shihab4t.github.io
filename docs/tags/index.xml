@@ -1,14 +1,46 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
-        <title>Tags on sh048b&#39;s Blog</title>
+        <title>Tags on shihab4t&#39;s Blog</title>
         <link>/tags/</link>
-        <description>Recent content in Tags on sh048b&#39;s Blog</description>
+        <description>Recent content in Tags on shihab4t&#39;s Blog</description>
         <generator>Hugo -- gohugo.io</generator>
-        <lastBuildDate>Sun, 08 Nov 2020 00:00:00 +0000</lastBuildDate><atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Wed, 14 Apr 2021 00:00:00 +0000</lastBuildDate><atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>full-stack</title>
+        <link>/tags/full-stack/</link>
+        <pubDate>Wed, 14 Apr 2021 00:00:00 +0000</pubDate>
+        
+        <guid>/tags/full-stack/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>javascript</title>
+        <link>/tags/javascript/</link>
+        <pubDate>Wed, 14 Apr 2021 00:00:00 +0000</pubDate>
+        
+        <guid>/tags/javascript/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>programming</title>
+        <link>/tags/programming/</link>
+        <pubDate>Wed, 14 Apr 2021 00:00:00 +0000</pubDate>
+        
+        <guid>/tags/programming/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>web-development</title>
+        <link>/tags/web-development/</link>
+        <pubDate>Wed, 14 Apr 2021 00:00:00 +0000</pubDate>
+        
+        <guid>/tags/web-development/</guid>
+        <description></description>
+        </item>
+        <item>
         <title>beginners</title>
         <link>/tags/beginners/</link>
-        <pubDate>Sun, 08 Nov 2020 00:00:00 +0000</pubDate>
+        <pubDate>Fri, 08 Jan 2021 00:00:00 +0000</pubDate>
         
         <guid>/tags/beginners/</guid>
         <description></description>
@@ -16,7 +48,7 @@
         <item>
         <title>c</title>
         <link>/tags/c/</link>
-        <pubDate>Sun, 08 Nov 2020 00:00:00 +0000</pubDate>
+        <pubDate>Fri, 08 Jan 2021 00:00:00 +0000</pubDate>
         
         <guid>/tags/c/</guid>
         <description></description>
@@ -24,17 +56,17 @@
         <item>
         <title>languages</title>
         <link>/tags/languages/</link>
-        <pubDate>Sun, 08 Nov 2020 00:00:00 +0000</pubDate>
+        <pubDate>Fri, 08 Jan 2021 00:00:00 +0000</pubDate>
         
         <guid>/tags/languages/</guid>
         <description></description>
         </item>
         <item>
-        <title>programming</title>
-        <link>/tags/programming/</link>
-        <pubDate>Sun, 08 Nov 2020 00:00:00 +0000</pubDate>
+        <title>computer-science</title>
+        <link>/tags/computer-science/</link>
+        <pubDate>Tue, 10 Nov 2020 00:00:00 +0000</pubDate>
         
-        <guid>/tags/programming/</guid>
+        <guid>/tags/computer-science/</guid>
         <description></description>
         </item>
         

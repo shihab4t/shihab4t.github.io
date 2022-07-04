@@ -1,0 +1,600 @@
+<!DOCTYPE html>
+<html lang="" dir="ltr">
+    <head><meta charset='utf-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content='ফুলস্ট্যাক ডেভেলপমেন্ট কানেকটিং দ্য ডটস (HM Nayem) বইটি নিয়ে আমার কথা।'><title>বইটি নিয়ে আমার কথা!</title>
+
+<link rel='canonical' href='/p/%E0%A6%AC%E0%A6%87%E0%A6%9F%E0%A6%BF-%E0%A6%A8%E0%A6%BF%E0%A7%9F%E0%A7%87-%E0%A6%86%E0%A6%AE%E0%A6%BE%E0%A6%B0-%E0%A6%95%E0%A6%A5%E0%A6%BE/'>
+
+<link rel="stylesheet" href="/scss/style.min.ac77dcf8b111b51da39a92990f431923f210f3876d85798a2125667f96dc33a4.css"><meta property='og:title' content='বইটি নিয়ে আমার কথা!'>
+<meta property='og:description' content='ফুলস্ট্যাক ডেভেলপমেন্ট কানেকটিং দ্য ডটস (HM Nayem) বইটি নিয়ে আমার কথা।'>
+<meta property='og:url' content='/p/%E0%A6%AC%E0%A6%87%E0%A6%9F%E0%A6%BF-%E0%A6%A8%E0%A6%BF%E0%A7%9F%E0%A7%87-%E0%A6%86%E0%A6%AE%E0%A6%BE%E0%A6%B0-%E0%A6%95%E0%A6%A5%E0%A6%BE/'>
+<meta property='og:site_name' content='shihab4t&#39;s Blog'>
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='programming' /><meta property='article:tag' content='javascript' /><meta property='article:tag' content='web-development' /><meta property='article:tag' content='full-stack' /><meta property='article:published_time' content='2021-04-14T00:00:00&#43;00:00'/><meta property='article:modified_time' content='2021-04-14T00:00:00&#43;00:00'/><meta property='og:image' content='/p/%E0%A6%AC%E0%A6%87%E0%A6%9F%E0%A6%BF-%E0%A6%A8%E0%A6%BF%E0%A7%9F%E0%A7%87-%E0%A6%86%E0%A6%AE%E0%A6%BE%E0%A6%B0-%E0%A6%95%E0%A6%A5%E0%A6%BE/f-images.jpg' />
+<meta name="twitter:title" content="বইটি নিয়ে আমার কথা!">
+<meta name="twitter:description" content="ফুলস্ট্যাক ডেভেলপমেন্ট কানেকটিং দ্য ডটস (HM Nayem) বইটি নিয়ে আমার কথা।"><meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content='/p/%E0%A6%AC%E0%A6%87%E0%A6%9F%E0%A6%BF-%E0%A6%A8%E0%A6%BF%E0%A7%9F%E0%A7%87-%E0%A6%86%E0%A6%AE%E0%A6%BE%E0%A6%B0-%E0%A6%95%E0%A6%A5%E0%A6%BE/f-images.jpg' />
+    </head>
+    <body class="
+    article-page
+    ">
+    <script>
+        (function() {
+            const colorSchemeKey = 'StackColorScheme';
+            if(!localStorage.getItem(colorSchemeKey)){
+                localStorage.setItem(colorSchemeKey, "dark");
+            }
+        })();
+    </script><script>
+    (function() {
+        const colorSchemeKey = 'StackColorScheme';
+        const colorSchemeItem = localStorage.getItem(colorSchemeKey);
+        const supportDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches === true;
+
+        if (colorSchemeItem == 'dark' || colorSchemeItem === 'auto' && supportDarkMode) {
+            
+
+            document.documentElement.dataset.scheme = 'dark';
+        } else {
+            document.documentElement.dataset.scheme = 'light';
+        }
+    })();
+</script>
+<div class="container main-container flex on-phone--column extended"><aside class="sidebar left-sidebar sticky ">
+    <button class="hamburger hamburger--spin" type="button" id="toggle-menu" aria-label="Toggle Menu">
+        <span class="hamburger-box">
+            <span class="hamburger-inner"></span>
+        </span>
+    </button>
+
+    <header>
+        
+            
+            <figure class="site-avatar">
+                <a href="/">
+                
+                    
+                    
+                    
+                        
+                        <img src="/img/shihab_hu6b2910a5fe04ab130d770dea31a90b74_22135_300x0_resize_q75_box.jpeg" width="300"
+                            height="300" class="site-logo" loading="lazy" alt="Avatar">
+                    
+                
+                </a>
+                
+                    <span class="emoji">🍥</span>
+                
+            </figure>
+            
+        
+        
+        <div class="site-meta">
+            <h1 class="site-name"><a href="/">Shihab Mahamud</a></h1>
+            <h2 class="site-description">Competitive Programmer | NHSPC 2022 Finalist | Software Engineering Enthusiast</h2>
+        </div>
+    </header><ol class="social-menu">
+            
+                <li>
+                    <a 
+                        href='https://github.com/shihab4t'
+                        target="_blank"
+                        title="GitHub"
+                    >
+                        
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-github" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5" />
+</svg>
+
+
+
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a 
+                        href='https://www.linkedin.com/in/shihab4t/'
+                        target="_blank"
+                        title="LinkedIn"
+                    >
+                        
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-link" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M10 14a3.5 3.5 0 0 0 5 0l4 -4a3.5 3.5 0 0 0 -5 -5l-.5 .5" />
+  <path d="M14 10a3.5 3.5 0 0 0 -5 0l-4 4a3.5 3.5 0 0 0 5 5l.5 -.5" />
+</svg>
+
+
+
+                        
+                    </a>
+                </li>
+            
+        </ol><ol class="menu" id="main-menu">
+        
+        
+        
+
+        <li >
+            <a href='/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-home" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <polyline points="5 12 3 12 12 3 21 12 19 12" />
+  <path d="M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-7" />
+  <path d="M9 21v-6a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v6" />
+</svg>
+
+
+
+                
+                <span>Home</span>
+            </a>
+        </li>
+        
+        
+
+        <li >
+            <a href='/about/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-user" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="7" r="4" />
+  <path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2" />
+</svg>
+
+
+
+                
+                <span>About</span>
+            </a>
+        </li>
+        
+        
+
+        <li >
+            <a href='/archives/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-archive" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <rect x="3" y="4" width="18" height="4" rx="2" />
+  <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10" />
+  <line x1="10" y1="12" x2="14" y2="12" />
+</svg>
+
+
+
+                
+                <span>Archives</span>
+            </a>
+        </li>
+        
+        
+
+        <li >
+            <a href='/search/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-search" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="10" cy="10" r="7" />
+  <line x1="21" y1="21" x2="15" y2="15" />
+</svg>
+
+
+
+                
+                <span>Search</span>
+            </a>
+        </li>
+        
+
+        <div class="menu-bottom-section">
+            
+            
+                <li id="dark-mode-toggle">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-left" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="8" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-right" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="16" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                    <span>Dark Mode</span>
+                </li>
+            
+        </div>
+    </ol>
+</aside>
+<main class="main full-width">
+    <article class="has-image main-article">
+    <header class="article-header">
+        <div class="article-image">
+            <a href="/p/%E0%A6%AC%E0%A6%87%E0%A6%9F%E0%A6%BF-%E0%A6%A8%E0%A6%BF%E0%A7%9F%E0%A7%87-%E0%A6%86%E0%A6%AE%E0%A6%BE%E0%A6%B0-%E0%A6%95%E0%A6%A5%E0%A6%BE/">
+                <img src="/p/%E0%A6%AC%E0%A6%87%E0%A6%9F%E0%A6%BF-%E0%A6%A8%E0%A6%BF%E0%A7%9F%E0%A7%87-%E0%A6%86%E0%A6%AE%E0%A6%BE%E0%A6%B0-%E0%A6%95%E0%A6%A5%E0%A6%BE/f-images_hu9f269c3ec57d7e2b1c699d5aeb07c44b_18020_800x0_resize_q75_box.jpg"
+                        srcset="/p/%E0%A6%AC%E0%A6%87%E0%A6%9F%E0%A6%BF-%E0%A6%A8%E0%A6%BF%E0%A7%9F%E0%A7%87-%E0%A6%86%E0%A6%AE%E0%A6%BE%E0%A6%B0-%E0%A6%95%E0%A6%A5%E0%A6%BE/f-images_hu9f269c3ec57d7e2b1c699d5aeb07c44b_18020_800x0_resize_q75_box.jpg 800w, /p/%E0%A6%AC%E0%A6%87%E0%A6%9F%E0%A6%BF-%E0%A6%A8%E0%A6%BF%E0%A7%9F%E0%A7%87-%E0%A6%86%E0%A6%AE%E0%A6%BE%E0%A6%B0-%E0%A6%95%E0%A6%A5%E0%A6%BE/f-images_hu9f269c3ec57d7e2b1c699d5aeb07c44b_18020_1600x0_resize_q75_box.jpg 1600w"
+                        width="800" 
+                        height="336" 
+                        loading="lazy"
+                        alt="Featured image of post বইটি নিয়ে আমার কথা!" />
+                
+            </a>
+        </div>
+    
+
+    <div class="article-details">
+    
+    <header class="article-category">
+        
+            <a href="/categories/blog/" style="background-color: #2a9d8f; color: #fff;">
+                Blog
+            </a>
+        
+    </header>
+    
+
+    <div class="article-title-wrapper">
+        <h2 class="article-title">
+            <a href="/p/%E0%A6%AC%E0%A6%87%E0%A6%9F%E0%A6%BF-%E0%A6%A8%E0%A6%BF%E0%A7%9F%E0%A7%87-%E0%A6%86%E0%A6%AE%E0%A6%BE%E0%A6%B0-%E0%A6%95%E0%A6%A5%E0%A6%BE/">বইটি নিয়ে আমার কথা!</a>
+        </h2>
+    
+        
+        <h3 class="article-subtitle">
+            ফুলস্ট্যাক ডেভেলপমেন্ট কানেকটিং দ্য ডটস (HM Nayem) বইটি নিয়ে আমার কথা।
+        </h3>
+        
+    </div>
+
+    
+    <footer class="article-time">
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-calendar-time" width="56" height="56" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M11.795 21h-6.795a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v4" />
+  <circle cx="18" cy="18" r="4" />
+  <path d="M15 3v4" />
+  <path d="M7 3v4" />
+  <path d="M3 11h16" />
+  <path d="M18 16.496v1.504l1 1" />
+</svg>
+                <time class="article-time--published">Apr 14, 2021</time>
+            </div>
+        
+
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <polyline points="12 7 12 12 15 15" />
+</svg>
+
+
+
+                <time class="article-time--reading">
+                    3 minute read
+                </time>
+            </div>
+        
+    </footer>
+    
+
+    
+</div>
+</header>
+
+    <section class="article-content">
+    
+    
+    <p>প্রথমে ভেবেছিলাম বইটি কিনবো না, কারণ আগে তামিম শাহরিয়ার সুবিন ভাইয়ের প্রোগ্রামিংয়ের আশ্চর্য জগৎ পড়েছিলার এবং সুবিন ভাই ও HM Nayem ভাইয়ের অনেক গাইডলাইন মুলক ভিডিও দেখেছি তাই Programming, Software Development এবং Software Engineering সম্পর্কে সঠিক ধারণা ছিল। কিন্তু Youtube এ HM Nayem ভাইয়ের রিভিউ দেখে মনে হলো, হয়ত বা বইটিতে নতুন কিছু যানার আছে। তাই বইটি কিনেই ফেললাম, এখন পড়ার পরে মনে হচ্ছে সিদ্ধান্তটা ঠিকই ছিল। অসংখ্য ধন্যবাদ HM Nayem ভাইকে প্রোগ্রামিং শিখতে আসা নতুন শিক্ষার্থিদের ভুল পথে সময় ও টাকা ব্যয় করার থেকে বাচানোর জন্য। এছাড়াও ধন্যবাদ এতো সুন্দর বই উপহার দেওয়ার জন্য।
+এখন আসা যাক আসল আলোচনায়, আমি মনে করি মোটা দাগে বইটিকে দুই ভাগে ভাগ করা যায়। প্রথম অংশ হলো Programming শেখা নিয়ে আর দ্বিতীয় অংশ হলো ফুলস্ট্যাক ওয়েব ডেভেলপমেন্ট নিয়ে।
+প্রোগ্রামিং নিয়ে আমার অভিজ্ঞতা বেশি দিনের নয়, তবে Programming Community এর সাথে যুক্ত থাকার করণে দেখেছি অনেকের কাছে যথেষ্ট সময় ও সুযোগ থাকার পরেও Freelancing এর গুতায় Programming বা Computer Science এর বেসিক না শিখেই বিভিন্ন ফ্রেমওয়ার্ক বা টুল শেখা শুরু করে। তাই বইয়ের প্রথম অংশ আমার কাছে খুবই কার্যকরি মনে হয়েছে। এই অংশে আলোচনা করা হয়েছে Computer Scinece এর বেসিক — Programming, Data Structure and Algorithm, Problem Solving, Object Oriented Programming , Discrete Mathematics নিয়ে, এগুলাে কেন স্কিপ করা উচিত না তা নিয়ে। এছাড়াও অধ্যায় চৌদ্দোর শেষে সবকিছু শেখার রির্সোস শেয়ার করার ব্যাপারটি ভালো লেগেছে। তবে আমার অনুরোধ থাকবে, দ্বিতীয় প্রকাশে বইয়ের এই অংশে আরও দুটি বিষয় নিয়ে আলােচনা করার জন্য একটি হলো Computer Networking (যদিও লেখক নিজেই এটি উল্লেখ করেছে) আর একটি হলো Operating Systems। যেহেতু এই বইয়ের মুল আলোচ্য বিষয় হলো ওয়েব ডেভেলপমেন্ট তাই Networking নিয়ে আলেচনা আমি আশা করেছিলাম। যাই হোক আশাকরি দ্বিতীয় প্রকাশে এটি পাব। আর যেহেতু Back-End Development পুরোপুরি Operating Systems এর সাথে সম্পর্কিত বিষয় তাই এটি আশা করাও হয়ত বা দোষের না। যদি আবেদনটি HM Nayem ভাইয়ের কাছে পৌছায় আশা করি আমলে নেবেন, ইনশাআল্লাহ।
+যেহেতু আমি তামিম শাহরিয়ার সুবিন ভাইয়ের বইয়ের নিয়মিত পাঠক, তাই বইটি প্রথম অংশে বর্ণিত বিষয়বস্তু সম্পর্কে আমি আগেই অবগত ছিলাম। তাই বইটি পড়ে আর একজন জ্ঞানীর থেকে বিষয়গুলো ভেরিফাই হয়ে গেল আরকি।
+এবার আশা যাক বইয়ের দ্বিতীয় অংশে, বইটির দ্বিতীয় অংশে HM Nayem ভাই একটা ওয়েব অ্যপলিকেশন তৈরির আইডিয়া থেকে শুরু করে ডেপলয়মেন্ট পর্যন্ত যা যা থিওরি এবং টুল যানা দরকার তা বর্নণা করেছেন। এক কথাই বললে ওয়েব ডেভেলপমেন্টে পুরো প্রোসেসটা বর্ননা করা হয়েছে। তাই ওয়েব ডেভেলপমেন্টে আগ্রহী প্রোগ্রামারের জন্য বইটির দ্বিতীয় অংশ হতে পারে আর্দশ সঙ্গী । আমার ডেভেলপমেন্ট নিয়ে অল্প অল্প ধারণা থাকলেও পরিষ্কার ধারনা ছিলনা। যা বইটি পড়ার মাধ্যমে ভালই অর্জিত হয়েছে। বিশেষ করে ওয়ের ডিজাইন ও ফ্রন্টেন্ড ডেভেলপমেন্টের মধ্যে পার্থক্যটি পরিষ্কার হয়েছে।
+সবশেষে, ফুলস্ট্যাক ডেভেলপমেন্ট কানেকটিং দ্য ডটস (HM Nayem) বইটি সম্পর্কে বলা যায় যে, একজন ভালো ওয়েব ডেভেলপার হওয়ার জন্য যা যা করা দরকার, তার প্রায় সবকিছুই বইটিতে আলোচনা করা হয়েছে। তাই আমি মনে করি ওয়েব ডেভেলপমেন্টে আগ্রহী শিক্ষার্থিদের জন্য বইটি অপরিহার্য।
+এটি কোন বই রিভিউ না বরং বইটি সম্পর্কে আমার একটা মতামত মাত্র। আশাকরি ভুলগুলো ক্ষমা সুন্দর দৃষ্টিতে দেখবেন এবং কমেন্টে যানাবেন। ধন্যবাদ</p>
+
+</section>
+
+
+    <footer class="article-footer">
+    
+    <section class="article-tags">
+        
+            <a href="/tags/programming/">programming</a>
+        
+            <a href="/tags/javascript/">javascript</a>
+        
+            <a href="/tags/web-development/">web-development</a>
+        
+            <a href="/tags/full-stack/">full-stack</a>
+        
+    </section>
+
+
+    
+    <section class="article-copyright">
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-copyright" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <path d="M14.5 9a3.5 4 0 1 0 0 6" />
+</svg>
+
+
+
+        <span>Licensed under CC BY-NC-SA 4.0</span>
+    </section>
+    </footer>
+
+
+    
+        <link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/katex@0.15.6/dist/katex.min.css"integrity="sha256-J&#43;iAE0sgH8QSz9hpcDxXIftnj65JEZgNhGcgReTTK9s="crossorigin="anonymous"
+            ><script 
+                src="https://cdn.jsdelivr.net/npm/katex@0.15.6/dist/katex.min.js"integrity="sha256-InsNdER1b2xUewP&#43;pKCUJpkhiqwHgqiPXDlIk7GzBu4="crossorigin="anonymous"
+                defer
+                >
+            </script><script 
+                src="https://cdn.jsdelivr.net/npm/katex@0.15.6/dist/contrib/auto-render.min.js"integrity="sha256-y39Mpg7V3D4lhBX4x6O0bUqTV4pSrfgwEfGKfxkOdgI="crossorigin="anonymous"
+                defer
+                >
+            </script><script>
+    window.addEventListener("DOMContentLoaded", () => {
+        renderMathInElement(document.querySelector(`.article-content`), {
+            delimiters: [
+                { left: "$$", right: "$$", display: true },
+                { left: "$", right: "$", display: false },
+                { left: "\\(", right: "\\)", display: false },
+                { left: "\\[", right: "\\]", display: true }
+            ]
+        });})
+</script>
+    
+</article>
+
+    
+
+    
+
+<aside class="related-content--wrapper">
+    <h2 class="section-title">Related content</h2>
+    <div class="related-content">
+        <div class="flex article-list--tile">
+            
+                
+<article class="has-image">
+    <a href="/p/%E0%A6%95%E0%A6%BF%E0%A6%AD%E0%A6%BE%E0%A6%AC%E0%A7%87-%E0%A6%B8%E0%A6%BF-%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A7%8B%E0%A6%97%E0%A7%8D%E0%A6%B0%E0%A6%AE%E0%A6%BF%E0%A6%82-%E0%A6%B6%E0%A6%BF%E0%A6%96%E0%A6%AC%E0%A7%8B/">
+        
+        
+            <div class="article-image">
+                <img src="/p/%E0%A6%95%E0%A6%BF%E0%A6%AD%E0%A6%BE%E0%A6%AC%E0%A7%87-%E0%A6%B8%E0%A6%BF-%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A7%8B%E0%A6%97%E0%A7%8D%E0%A6%B0%E0%A6%AE%E0%A6%BF%E0%A6%82-%E0%A6%B6%E0%A6%BF%E0%A6%96%E0%A6%AC%E0%A7%8B/c-image.dda710877caa0bb3bf454df4189d6c3b_hu1c3b3b5a0e54f03c25ff1cf035ccd193_20470_250x150_fill_q75_box_smart1.jpg" 
+                        width="250" 
+                        height="150" 
+                        loading="lazy"
+                        alt="Featured image of post কিভাবে সি প্রোগ্রমিং শিখবো?"
+                        
+                        data-hash="md5-3acQh3yqC7O/RU30GJ1sOw==">
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">কিভাবে সি প্রোগ্রমিং শিখবো?</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="has-image">
+    <a href="/p/%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A7%8B%E0%A6%97%E0%A7%8D%E0%A6%B0%E0%A6%BE%E0%A6%AE%E0%A6%BF%E0%A6%82%E0%A7%9F%E0%A7%87%E0%A6%B0-%E0%A6%86%E0%A6%B6%E0%A7%8D%E0%A6%9A%E0%A6%B0%E0%A7%8D%E0%A6%AF-%E0%A6%9C%E0%A6%97%E0%A7%8E-%E0%A6%AC%E0%A6%87-%E0%A6%B0%E0%A6%BF%E0%A6%AD%E0%A6%BF%E0%A6%89/">
+        
+        
+            <div class="article-image">
+                <img src="/p/%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A7%8B%E0%A6%97%E0%A7%8D%E0%A6%B0%E0%A6%BE%E0%A6%AE%E0%A6%BF%E0%A6%82%E0%A7%9F%E0%A7%87%E0%A6%B0-%E0%A6%86%E0%A6%B6%E0%A7%8D%E0%A6%9A%E0%A6%B0%E0%A7%8D%E0%A6%AF-%E0%A6%9C%E0%A6%97%E0%A7%8E-%E0%A6%AC%E0%A6%87-%E0%A6%B0%E0%A6%BF%E0%A6%AD%E0%A6%BF%E0%A6%89/b-images.09b29fe109be9fcb4d1b95fa0c73c7ff_hu69e9012b90720c718cad35e48bcabeda_34026_250x150_fill_q75_box_smart1.jpg" 
+                        width="250" 
+                        height="150" 
+                        loading="lazy"
+                        alt="Featured image of post প্রোগ্রামিংয়ের আশ্চর্য জগৎ বই রিভিউ"
+                        
+                        data-hash="md5-CbKf4Qm&#43;n8tNG5X6DHPH/w==">
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">প্রোগ্রামিংয়ের আশ্চর্য জগৎ বই রিভিউ</h2>
+        </div>
+    </a>
+</article>
+
+            
+        </div>
+    </div>
+</aside>
+
+     
+    
+        
+    <div class="disqus-container">
+    <div id="disqus_thread"></div>
+<script type="application/javascript">
+    window.disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "hugo-theme-stack" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+</div>
+
+<style>
+    .disqus-container {
+        background-color: var(--card-background);
+        border-radius: var(--card-border-radius);
+        box-shadow: var(--shadow-l1);
+        padding: var(--card-padding);
+    }
+</style>
+
+<script>
+    window.addEventListener('onColorSchemeChange', (e) => {
+        if (typeof DISQUS == 'object') {
+            DISQUS.reset({
+                reload: true
+            });
+        }
+    })
+</script>
+
+    
+
+    <footer class="site-footer">
+    <section class="copyright">
+        &copy; 
+        
+            2020 - 
+        
+        2022 shihab4t&#39;s Blog
+    </section>
+    
+    <section class="powerby">
+        Built with <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> <br />
+        Theme <b><a href="https://github.com/CaiJimmy/hugo-theme-stack" target="_blank" rel="noopener" data-version="3.12.0">Stack</a></b> designed by <a href="https://jimmycai.com" target="_blank" rel="noopener">Jimmy</a>
+    </section>
+</footer>
+
+
+    
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+    
+    <div class="pswp__bg"></div>
+
+    
+    <div class="pswp__scroll-wrap">
+
+        
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+
+        
+        <div class="pswp__ui pswp__ui--hidden">
+
+            <div class="pswp__top-bar">
+
+                
+
+                <div class="pswp__counter"></div>
+
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+                <button class="pswp__button pswp__button--share" title="Share"></button>
+
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+                
+                
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                        <div class="pswp__preloader__cut">
+                            <div class="pswp__preloader__donut"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div>
+            </div>
+
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.js"integrity="sha256-ePwmChbbvXbsO02lbM3HoHbSHTHFAeChekF1xKJdleo="crossorigin="anonymous"
+                defer
+                >
+            </script><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe-ui-default.min.js"integrity="sha256-UKkzOn/w1mBxRmLLGrSeyB4e1xbrp4xylgAWb3M42pU="crossorigin="anonymous"
+                defer
+                >
+            </script><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/default-skin/default-skin.min.css"crossorigin="anonymous"
+            ><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.css"crossorigin="anonymous"
+            >
+
+            </main>
+    
+
+        </div>
+        <script 
+                src="https://cdn.jsdelivr.net/npm/node-vibrant@3.1.6/dist/vibrant.min.js"integrity="sha256-awcR2jno4kI5X0zL8ex0vi2z&#43;KMkF24hUW8WePSA9HM="crossorigin="anonymous"
+                
+                >
+            </script><script type="text/javascript" src="/ts/main.js" defer></script>
+<script>
+    (function () {
+        const customFont = document.createElement('link');
+        customFont.href = "https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap";
+
+        customFont.type = "text/css";
+        customFont.rel = "stylesheet";
+
+        document.head.appendChild(customFont);
+    }());
+</script>
+
+    </body>
+</html>
