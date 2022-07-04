@@ -55,7 +55,7 @@ params:
 
   comments:
     enabled: true
-    provider: disqus
+    provider: waline
 
     disqusjs:
       shortname:
@@ -84,8 +84,8 @@ params:
 
     # Waline client configuration see: https://waline.js.org/en/reference/component.html
     waline:
-      serverURL:
-      lang:
+      serverURL: https://hu5byord.api.lncldglobal.com
+      lang: en
       pageview:
       emoji:
         - https://unpkg.com/@waline/emojis@1.0.1/weibo
@@ -95,7 +95,7 @@ params:
         - url
       locale:
         admin: Admin
-        placeholder:
+        placeholder: write here
 
     twikoo:
       envId:
@@ -107,7 +107,7 @@ params:
     cactus:
       defaultHomeserverUrl: "https://matrix.cactus.chat:8448"
       serverName: "cactus.chat"
-      siteName: "" # You must insert a unique identifier here matching the one you registered (See https://cactus.chat/docs/getting-started/quick-start/#register-your-site)
+      siteName: "shihab4t.github.io" # You must insert a unique identifier here matching the one you registered (See https://cactus.chat/docs/getting-started/quick-start/#register-your-site)
 
     giscus:
       repo:
