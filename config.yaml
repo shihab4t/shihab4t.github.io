@@ -84,9 +84,9 @@ params:
 
     # Waline client configuration see: https://waline.js.org/en/reference/component.html
     waline:
-      serverURL: https://hu5byord.api.lncldglobal.com
+      serverURL: waline-test-beta-woad.vercel.app
       lang: en
-      pageview:
+      pageview: true
       emoji:
         - https://unpkg.com/@waline/emojis@1.0.1/weibo
       requiredMeta:
